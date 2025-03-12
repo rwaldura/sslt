@@ -5,6 +5,6 @@ Based on ANTLR 4.
 
 Build & test with:
 
-javac -d build src/**/*.java &&                                                                 rwaldura@rwaldura-macbookpro4
+javac -d build src/**/*.java &&
  java org.waldura.xslt.Main test/2.sxsl /dev/stdout
 
