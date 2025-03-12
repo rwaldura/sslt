@@ -1,0 +1,7 @@
+def1 param1:"value1"		{}
+def2 	paramDQuot : "v1"	{}
+def3 paramSQuot:' bv '		{} 
+def4	p3:1234 p4:-.346	{}
+def5 p0:"abc def" p1:'asdf asdf'	p2:1234 p3:-.346	{}
+
+template "/" {}

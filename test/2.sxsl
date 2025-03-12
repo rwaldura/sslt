@@ -1,0 +1,19 @@
+output method: "text" encoding: "UTF-8" {}
+
+template "/workunit/zzz" {
+	if "@abc = 'def'" {
+		if "active_task" {
+	    	value-of "active_task/fraction_done"
+   	 
+	    	choose {
+	        	when "active_task/progress_rate" {
+	            	value-of "active_task/progress_rate"
+	        	}
+				otherwise { «hey! this my default with "quotes",
+				 and {braces},
+				 and <brackets>, 
+				 and newlines» }
+			}
+		}
+	}
+}
